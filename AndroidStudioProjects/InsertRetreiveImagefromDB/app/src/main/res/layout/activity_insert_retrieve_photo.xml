@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".InsertRetrievePhotoActivity">
+
+    <TextView android:id="@+id/tvTitle"
+              android:text="@string/app_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:layout_gravity="center_vertical|center_horizontal|center" />
+
+    <Button android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_yellow"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/insert"
+        android:textStyle="bold"
+        android:onClick="doClick"
+        />
+
+    <Button android:id="@+id/btnRetrieve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_button_green"
+        android:layout_marginBottom="5dp"
+        android:text="@string/retrieve"
+        android:textStyle="bold"
+        android:onClick="doClick"
+        />
+
+</LinearLayout>

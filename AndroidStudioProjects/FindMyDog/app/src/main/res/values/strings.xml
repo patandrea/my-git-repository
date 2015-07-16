@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Find My Dog</string>
+    <string name="action_settings">Settings</string>
+    <string name="purpose">The purpose of this app is to have a Lost Dog\n
+                           Poster ready in the event your dog should\n
+                           ever get lost.\n
+                           Then you only need to fill out the information\n
+                           regarding where and when the dog was lost.\n
+                           You can then email or text this information\n
+                           to anyone you want immediately.</string>
+    <string name="create_new_poster">Create New Poster</string>
+    <string name="add_lost_info">Add Where and When Your Pet was Lost</string>
+    <string name="next">Next</string>
+    <string name="what_to_do">What do you want to do?</string>
+    <string name="create_poster">Create Poster</string>
+    <string name="add_info">Add Info</string>
+    <string name="enter">Enter</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+
+    <string name="lost_dog">Lost Dog</string>
+    <string name="is_lost">is Lost</string>
+    <string name="create_contacts">Create Contacts</string>
+    <string name="content">image</string>
+    <string name="dogsname">Dogs Name</string>
+    <string name="description">Description of Dog</string>
+    <string name="lost_info">Where/When Dog was Lost (or blank)</string>
+    <string name="contact_info">Owner Contact Info</string>
+    <string name="load_pic">Load Picture</string>
+    <string name="choose_pic">Choose Picture</string>
+    <string name="save_pic">Save Picture</string>
+    <string name="save_contact">Save Contact</string>
+    <string name="title_activity_create_poster">CreatePosterActivity</string>
+    <string name="title_activity_choose_picture">ChoosePictureActivity</string>
+
+    <string name="dogs_name">Dogs name</string>
+    <string name="directions">Enter Dogs name and Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="name">Name</string>
+    <string name="desc">Description</string>
+
+</resources>
+

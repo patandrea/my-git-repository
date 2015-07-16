@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">States and Caps with Uncle Sam</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="game_app_name">Game</string>
+    <string name="sam_wants_you">Uncle Sam wants YOU\n
+                             to know your\n
+                       US States and Capitals!</string>
+    <string name="sam_wants_you_land">Uncle Sam wants YOU to know  your US States and Capitals!
+                      </string>
+    <string name="content">image</string>
+    <string name="name_hint">Enter Your Name</string>
+    <string name="guess_hint">Your Guess</string>
+    <string name="score_page">Score Page</string>
+    <string name="player_name">Player Name</string>
+    <string name="score">Score</string>
+    <string name="game_explanation1">You will get 10 guesses\n
+        (Choose State or Capital).\n
+        Each correct guess is worth 10 points.\n
+        Good Luck!</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="capital_guess_state">Capital (Guess State)</string>
+    <string name="state_guess_capital">State (Guess Capital)</string>
+    <string name="play_game">Play Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="show_score">Show Score</string>
+    <string name="guess">Guess</string>
+    <string name="stop">Stop</string>
+    <string name="your_answer">Your Answer Here</string>
+    <string name="enter">Enter</string>
+
+    <string name="congrats">Congratulations</string>
+    <string name="perfect_score">you got a perfect score!</string>
+    <string name="good_score">you got an excellent score!</string>
+    <string name="fair_score">you need to work on your States and Capitals!</string>
+    <string name="poor_score">, you need a lot of work on your States and Capitals!</string>
+
+
+</resources>

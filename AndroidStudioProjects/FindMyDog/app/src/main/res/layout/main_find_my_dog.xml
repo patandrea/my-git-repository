@@ -1,0 +1,80 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="90dp"
+    tools:context=".FindMyDogActivity">
+
+    <TextView
+        android:id="@+id/tv_purpose"
+        android:text="@string/purpose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:singleLine="false"
+        android:paddingBottom="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_what_to_do"
+        android:text="@string/what_to_do"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+    <RadioGroup android:id="@+id/rg_what_to_do"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton android:id="@+id/rb_new_poster"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/create_new_poster" />
+        <RadioButton android:id="@+id/rb_lost_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/add_lost_info" />
+    </RadioGroup>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:id="@+id/header_background">
+
+        <Button android:id="@+id/nextBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="64dp"
+            android:paddingTop="5dp"
+            android:background="@drawable/custom_button_green"
+            android:text="@string/submit"
+            android:textStyle="bold"
+            android:onClick="doClick"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

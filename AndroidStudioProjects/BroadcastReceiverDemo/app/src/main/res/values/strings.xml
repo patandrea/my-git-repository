@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Broadcast Receiver Demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_title">Broadcast Receiver Demo</string>
+    <string name="send_broadcast">Send Broadcast</string>
+    <string name="et_broadcast_msg_hint">Enter Broadcast Message</string>
+    <string name="demo_notifications">Demo Notifications</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="clear_notification">Clear Notification</string>
+    <string name="title_activity_demo_notify">DemoNotifyActivity</string>
+
+</resources>
