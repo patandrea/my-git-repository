@@ -41,6 +41,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
+What challenged me was git. I haven't used it in years.
+Also, getting the licecap gif url onto the README file.
 
 ## License
 
